@@ -112,7 +112,7 @@ void moduleToggle(std::unique_ptr<i_module>& mod_ptr, const ImVec2& buttonSize)
         ImVec2(pos.x + totalSize.x, pos.y + totalSize.y),
         IM_COL32(31, 32, 48, 255),
         16.0f,
-        true,
+        ImDrawFlags_RoundCornersAll,
         2.f
     );
 
@@ -298,4 +298,5 @@ void renderAll() {
         renderGui(); 
     }
     //renderMisc();
+
 }
