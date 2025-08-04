@@ -1,0 +1,16 @@
+#pragma once
+
+#include "utils/valueObfuscation.h"
+#include "mappings_forge_1_7_10.h"
+#include "mappings_forge_1_8_9.h"
+#include "mappings_forge_1_12.h"
+#include "mappings_fabric_1_16_5.h"
+#include "mappings_fabric_1_21.h"
+#include "mappings_fabric_1_21_4.h"
+#include "mappings_forge_1_16_5.h"
+#include "mappings_laby_1_17.h"
+#include "mappings_laby_1_18.h"
+#include "mappings_laby_1_19.h"
+#include "mappings_laby_1_20.h"
+#include "mappings_forge_1_21_1.h"
+#include "mappings_laby_1_21_4.h"

@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="src\utils\fnv1a.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cheat.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\smbios.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\gui.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gui\imguiHook.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui.cpp">
+      <Filter>ext\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_demo.cpp">
+      <Filter>ext\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_draw.cpp">
+      <Filter>ext\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_impl_opengl3.cpp">
+      <Filter>ext\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_impl_win32.cpp">
+      <Filter>ext\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_tables.cpp">
+      <Filter>ext\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_widgets.cpp">
+      <Filter>ext\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\kiero\kiero.cpp">
+      <Filter>ext\kiero</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\process.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\triggerbot.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\aimassist.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\timer.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils\maths.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\modules.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modules\watermark.cpp">
+      <Filter>modules</Filter>
+    </ClCompile>
+    <ClCompile Include="src\classes\c_entity.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\classes\c_timer.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\classes\c_minecraft.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\classes\c_player.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\classes\c_world.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\classes\c_aabb.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\classes\c_vec3.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="utils">
+      <UniqueIdentifier>{f427c9cd-17d2-49fb-8464-721dc51728b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mappings">
+      <UniqueIdentifier>{68487d1c-ea12-48d5-8e8f-fe904208e58d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{0256605f-c369-4525-8cac-b517f486ed8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{897137dd-4e47-4f4c-b1de-e8f010a9a6d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext">
+      <UniqueIdentifier>{0059051e-5b7e-4444-a10a-6ca54ed5968a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\imgui">
+      <UniqueIdentifier>{e94702e6-59e1-41f5-8dd7-a65c624679b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\kiero">
+      <UniqueIdentifier>{41b592d2-7e3b-432b-af5e-f7757b42db8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes">
+      <UniqueIdentifier>{cf9a0f3c-a219-4e03-99fb-02aefb6985f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules">
+      <UniqueIdentifier>{120123eb-5757-41ad-ada3-d0852af03925}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\mappings\mappings.hpp">
+      <Filter>mappings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mappings\mappings_fabric_1_16_5.h">
+      <Filter>mappings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mappings\mappings_fabric_1_21.h">
+      <Filter>mappings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mappings\mappings_fabric_1_21_4.h">
+      <Filter>mappings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mappings\mappings_forge_1_7_10.h">
+      <Filter>mappings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mappings\mappings_forge_1_8_9.h">
+      <Filter>mappings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mappings\mappings_forge_1_12.h">
+      <Filter>mappings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mappings\mappings_forge_1_16_5.h">
+      <Filter>mappings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mappings\mappings_forge_1_21_1.h">
+      <Filter>mappings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mappings\mappings_forge_1_21_4.h">
+      <Filter>mappings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\fnv1a.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\random.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\valueObfuscation.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cheat.hpp">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\Logger.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\smbios.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\hwid_checker.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\tea_crypt.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\definitions.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\gui.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\imguiHook.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\rubik.hpp">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imconfig.h">
+      <Filter>ext\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imgui.h">
+      <Filter>ext\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imgui_impl_opengl3.h">
+      <Filter>ext\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>ext\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imgui_impl_win32.h">
+      <Filter>ext\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imgui_internal.h">
+      <Filter>ext\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imstb_rectpack.h">
+      <Filter>ext\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imstb_textedit.h">
+      <Filter>ext\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imstb_truetype.h">
+      <Filter>ext\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\kiero\kiero.h">
+      <Filter>ext\kiero</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\types.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\process.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\singleton.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\timer.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils\maths.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gui\options.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\modules\modules.hpp">
+      <Filter>modules</Filter>
+    </ClInclude>
+    <ClInclude Include="src\classes\java_classes.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\classes\references.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mappings\mappings_laby_1_17.h">
+      <Filter>mappings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mappings\mappings_laby_1_18.h">
+      <Filter>mappings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mappings\mappings_laby_1_19.h">
+      <Filter>mappings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mappings\mappings_laby_1_20.h">
+      <Filter>mappings</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mappings\mappings_laby_1_21_4.h">
+      <Filter>mappings</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
