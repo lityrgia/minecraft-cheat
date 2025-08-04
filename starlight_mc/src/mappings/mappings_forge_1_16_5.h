@@ -22,8 +22,8 @@ namespace Mappings
 		"methods": []
 	},
 	"playerEntity": {
-		"obfuscated": "bke",
-		"signature": "Lbke;",
+		"obfuscated": "bfw",
+		"signature": "Lbfw;",
 		"fields": [],
 		"methods": []
 	},
@@ -125,8 +125,8 @@ namespace Mappings
 		],
 		"methods": []
 	},
-	"bke": {
-		"obfuscated": "bke",
+	"bfw": {
+		"obfuscated": "bfw",
 		"fields": [],
 		"methods": [
 			{
